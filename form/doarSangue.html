@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="doarSangue.css" media="screen">
+    <title>Doação de Sangue</title>
+</head>
+
+<body>
+
+    <div class="screen" >
+        <div class="leftside">
+            <img src="images/image1.jpg" alt="image1"/>
+        </div>
+
+        <div class="rightside">
+            <div>
+            <h1 id="titulo">Doação de Sangue</h1>
+            <p id="subtitulo">Complete suas informações</p>
+            
+            </div>
+
+            <form>
+                <fieldset class="grupo">
+                    <div class="campo">
+                        <label for="nome"><strong>Nome</strong></label>
+                        <input type="text" name="nome" id="nome" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for sobrenome><strong>Sobrenome</strong></label>
+                        <input type="text" name="sobrenome" id="sobrenome" required>
+                    </div>
+                </fieldset>
+
+                <div class="campo">
+                    <label for="email"><strong>Email</strong></label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+
+                <div class="campo">
+                    <label for="maioridade"><strong>É maior de idade?</strong></label>
+                    <select id="maioridade">
+                        <option selected disabled value="">Selecione</option>
+                        <option>Sim</option>
+                        <option>Não</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="gripado"><strong>Está gripado?</strong></label>
+                    <select id="gripado">
+                        <option selected disabled value="">Selecione</option>
+                        <option>Sim</option>
+                        <option>Não</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="bebida"><strong>Fez ingestão de bebida alcoólica nas últimas 12 horas?</strong></label>
+                    <select id="bebida">
+                        <option selected disabled value="">Selecione</option>
+                        <option>Sim</option>
+                        <option>Não</option>
+                    </select>
+                </div>
+                
+                <div class="campo">
+                    <label for="tatuagem"><strong>Tem tatuagem ou piercing ?</strong></label>
+                    <select id="tatuagem">
+                        <option selected disabled value="">Selecione</option>
+                        <option>Sim</option>
+                        <option>Não</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="gestante"><strong>Está gestante?</strong></label>
+                    <select id="gestante">
+                        <option selected disabled value="">Selecione</option>
+                        <option>Sim</option>
+                        <option>Não</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="transfusao"><strong>Recebeu transfusão de sangue nos últimos 12 meses?</strong></label>
+                    <select id="transfusao">
+                        <option selected disabled value="">Selecione</option>
+                        <option>Sim</option>
+                        <option>Não</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="vacina"><strong>Recebeu algum tipo de vacina nos últimos 7 dias?</strong></label>
+                    <select id="vacina">
+                        <option selected disabled value="">Selecione</option>
+                        <option>Sim</option>
+                        <option>Não</option>
+                    </select>
+                </div>
+                
+            </form>
+            <button class="botao" type="submit">Concluído</button>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
